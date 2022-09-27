@@ -1,0 +1,102 @@
+
+@font-face {
+	font-family: "BloggerSans";
+	src: url("../fonts/BloggerSans-BoldItalic.woff2") format("woff2"), url("../fonts/BloggerSans-BoldItalic.woff") format("woff");
+    font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: "BloggerSans";
+	src: url("../fonts/BloggerSans-Italic.woff2") format("woff2"), url("../fonts/BloggerSans-Italic.woff") format("woff");
+    font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Fregat";
+	src: url("../fonts/Fregat-BoldItalic.woff2") format("woff2"), url("../fonts/Fregat-BoldItalic.woff") format("woff");
+    font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Fregat";
+	src: url("../fonts/Fregat-Italic.woff2") format("woff2"), url("../fonts/Fregat-Italic.woff") format("woff");
+    font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "DeutschGothic";
+	src: url("../fonts/DeutschGothic.woff2") format("woff2"), url("../fonts/DeutschGothic.woff") format("woff");
+    font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "ChristmasScriptC";
+	src: url("../fonts/ChristmasScriptC.woff2") format("woff2"), url("../fonts/ChristmasScriptC.woff") format("woff");
+    font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+body{
+    font-family: "BloggerSans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+	background-color: rgb(160, 179, 231);
+    
+}
+.container{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgb(193, 206, 142);
+}
+.title{
+    font-family: "DeutschGothic";
+    font-size: 22px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	color: rgb(60, 55, 55, 0.8);
+	text-shadow: 1px 1px 4px rgb(99, 40, 40);
+}
+.paragraph-one{
+	margin-bottom: 20px;
+}
+.through{
+	text-decoration: line-through;
+	text-transform: capitalize ;
+}
+.title-two{
+	font-family: "Fregat";
+	font-weight: 700;
+	letter-spacing: 10px;
+	margin-bottom: 20px;
+}
+.photo{
+	margin-bottom: 20px;
+}
+.paragraph-two{
+	margin-bottom: 20px;
+}
+.over{
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+.title-three{
+	font-family: "ChristmasScriptC";
+	font-weight: 400;
+	text-shadow: -5px -5px 2px rgb(99, 40, 40);
+	margin-bottom: 20px;
+}
+.paragraph{
+	margin-bottom: 20px;
+}
+.under{
+	text-decoration: underline;
+	font-size: 10px;
+	line-height: 1.5;
+}
